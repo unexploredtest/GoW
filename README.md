@@ -1,6 +1,6 @@
 ## Grapes of Wrath
 
-![sample](https://github.com/aliPMPAINT/GoW/readme-assests/screenshot.png)
+![sample](https://github.com/aliPMPAINT/GoW/blob/master/readme-assests/screenshot.png)
 
 A web chatbot using django. You can also use your desired chatbot model (written in python). If you wanted to use the default one, please refer to [here](/home/alipmpaint/Documents/github/aliPMPAINT/GoW/chatbotAPI/model/README.md).
 
