@@ -2,7 +2,7 @@
 
 ![sample](https://github.com/aliPMPAINT/GoW/blob/master/readme-assests/screenshot.png)
 
-A web chatbot using django. You can also use your desired chatbot model (written in python). If you wanted to use the default one, please refer to [here](/home/alipmpaint/Documents/github/aliPMPAINT/GoW/chatbotAPI/model/README.md).
+A web chatbot using django. You can also use your desired chatbot model (written in python). If you wanted to use the default one, please refer to [here](https://github.com/aliPMPAINT/GoW/blob/master/chatbotAPI/model/README.md).
 
 ### Installation guide:
 
