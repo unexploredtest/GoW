@@ -3,3 +3,4 @@ __pycache__/
 venv/
 chatbotAPI/model/chatbot_model.7z
 chatbotAPI/chatbot_model
+db.sqlite3
