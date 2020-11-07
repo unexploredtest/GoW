@@ -23,12 +23,7 @@ class ChatConsumer(WebsocketConsumer):
         message = text_data_json['message'] 
         response = requests.post(api_url, data = {'question': message})
         response = (response.json())['answer']
-        # We want the conversation to have such a form:
-        # You: Hi
-        # Bot: Hello, how are you?
-        message = "You: " + message
-        message +=  '\n' + "Bot: " + response
         
         self.send(text_data=json.dumps({
-            'message': message
+            'message': response
         }))
