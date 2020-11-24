@@ -9,6 +9,9 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.shortcuts import render
 
+# Importing the dataset model
+from .models import Conversation
+
 
 #Importing the model
 def predict(question):
@@ -38,6 +41,8 @@ def predict_answer(request):
                 'question': question,
                 'answer' : answer,
             }
+            resulted_conversation = Conversation(question=question, answer=answer)
+            resulted_conversation.save()
         else:
             predictions = {
                 'error' : '1',

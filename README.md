@@ -28,6 +28,12 @@ Then install the dependencies:
 pip install -r requirements.txt
 ```
 
+Then make and apply the migrations for the database:
+```
+python manage.py makemigration
+python manage.py migrate
+```
+
 Start the server:
 ```
 python manage.py runserver
@@ -41,7 +47,8 @@ Special thanks to [LandyGuo](https://github.com/LandyGuo/WebChatUI)
 
 - [x] Nice UI and works on the front-end
 - [x] Instructions on how to use any desired chatbot model and add a default one
-- [ ] Add a database and store the chats
+- [x] Add a database and store the chats
+- [ ] Make a better default model and having it trained for a longer time and more data
 - [ ] Having the ability to train the chatbot based on the new data
 - [ ] Deploying it
 
