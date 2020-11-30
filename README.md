@@ -49,6 +49,5 @@ Special thanks to [LandyGuo](https://github.com/LandyGuo/WebChatUI)
 - [x] Instructions on how to use any desired chatbot model and add a default one
 - [x] Add a database and store the chats
 - [ ] Make a better default model and having it trained for a longer time and more data
-- [ ] Having the ability to train the chatbot based on the new data
 - [ ] Deploying it
 
